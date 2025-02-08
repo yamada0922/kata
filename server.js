@@ -99,7 +99,7 @@ const requestListener = (req, res) => {
         res.writeHead(200, headers);
         res.end();
     }else {
-        errHandle(res)
+        errorHandle(res)
     }
 }
 
